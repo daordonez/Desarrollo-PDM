@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Formulario</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_saludo">Saludo</string>
+    <string name="btn_enviar">Saludo</string>
+    <string name="nombreUs">Nombre:</string>
+    <string name="Intro_nom">Introduce tu nombre aqui!</string>
+</resources>
