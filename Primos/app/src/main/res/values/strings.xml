@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Primos</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="label_primo">Números primos</string>
+    <string name="btn_primo">¿Es primo?</string>
+    <string name="title_activity_resultado_primo">ResultadoPrimo</string>
+</resources>
