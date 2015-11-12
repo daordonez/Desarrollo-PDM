@@ -66,4 +66,15 @@ public class MainActivity extends AppCompatActivity {
             }
         }).start();
     }
+
+    public void longCalculationWithAsynTask(View v){
+
+        Long parameter = (long) 4000;
+        MyAsyncTask mAsyncTask = new MyAsyncTask();
+         mAsyncTask.execute(parameter);
+    }
+
+
+
+
 }
