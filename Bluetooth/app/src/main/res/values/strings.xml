@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Bluetooth</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="off_bluetooth">Apagar</string>
+    <string name="on_bluetooth">Encender</string>
+    <string name="discover_bluetooth">Hacer visible</string>
+</resources>

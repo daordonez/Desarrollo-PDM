@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_main" tools:context=".MainActivity"
+    android:background="#886363">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Red!"
+        android:id="@+id/red_btn"
+        android:textSize="20dp"
+        android:backgroundTint="#695959"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="White"
+        android:id="@+id/white_btn"
+        android:textSize="20dp"
+        android:layout_marginTop="26dp"
+        android:layout_below="@+id/red_btn"
+        android:layout_alignRight="@+id/red_btn"
+        android:layout_alignEnd="@+id/red_btn" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blue"
+        android:id="@+id/blue_btn"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/white_btn"
+        android:layout_alignLeft="@+id/white_btn"
+        android:layout_alignStart="@+id/white_btn" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Long calculation without threads"
+        android:id="@+id/button"
+        android:textSize="20dp"
+        android:onClick="longCalculationWithoutThreads"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/blue_btn"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Long calculation with threads"
+        android:id="@+id/button2"
+        android:textSize="20dp"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:onClick="longCalulationWithThreats" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Long calculation with Asyn Task!"
+        android:id="@+id/button3"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/button2"
+        android:layout_alignRight="@+id/button"
+        android:layout_alignEnd="@+id/button" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/resultado"
+        android:layout_below="@+id/button3"
+        android:layout_alignLeft="@+id/blue_btn"
+        android:layout_alignStart="@+id/blue_btn"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="44dp"
+        android:layout_alignRight="@+id/blue_btn"
+        android:layout_alignEnd="@+id/blue_btn" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_marginRight="5dp"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignStart="@+id/button3"
+        android:layout_alignRight="@+id/button"
+        android:layout_alignEnd="@+id/button" />
+
+</RelativeLayout>
