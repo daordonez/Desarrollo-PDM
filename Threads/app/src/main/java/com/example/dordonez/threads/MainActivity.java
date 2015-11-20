@@ -11,6 +11,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.EditText;
 import android.widget.ProgressBar;
+import android.os.AsyncTask;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -70,8 +71,13 @@ public class MainActivity extends AppCompatActivity {
     public void longCalculationWithAsynTask(View v){
 
         Long parameter = (long) 4000;
-        MyAsyncTask mAsyncTask = new MyAsyncTask();
-         mAsyncTask.execute(parameter);
+        AsyncTask mAsyncTask = new AsyncTask() {
+            @Override
+            protected Object doInBackground(Object[] params) {
+                return null;
+            }
+        };
+        mAsyncTask.execute(parameter);
     }
 
 
