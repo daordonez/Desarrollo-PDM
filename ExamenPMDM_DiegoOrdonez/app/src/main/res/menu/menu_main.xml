@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    //Valores del menu
+    <item android:id="@+id/m_decToHex"
+        android:title="@string/m_DecimalToHex"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/m_decToStr"
+        android:title="@string/m_DecimalToStr"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/m_toHome"
+        android:title="@string/m_Home"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ExamenPMDM_DiegoOrdonez</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_decimal_to_hexadecimal">DecimalToHexadecimal</string>
+    <string name="title_activity_decimal_to_string">DecimalToString</string>
+    <string name="inicio">Inicio de la apliación</string>
+    <string name="base16_main">Venimos de cambiar a base 16</string>
+    <string name="aString_main">Venimos de cambiar a cadena</string>
+    <string name="m_DecimalToHex">Decimal --> Hexadecimal</string>
+    <string name="m_DecimalToStr">Decimal --> String</string>
+    <string name="m_Home">Home</string>
+    <string name="cl_Hex_numdec">Número decimal</string>
+    <string name="cl_Hex_numhex">Número hexadecimal</string>
+    <string name="cl_Hex_btn_decHex">DEC-->HEX</string>
+    <string name="cl_Hex_Str_cnv">Convirtiendo...</string>
+    <string name="cl_Hex_Str_pf">Proceso finalizado!</string>
+
+</resources>
